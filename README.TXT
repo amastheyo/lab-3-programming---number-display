@@ -65,4 +65,7 @@ Question 19:
 No, they produce an identical result. Both expressions produce the same string representation of the int value.
 
 Question 20:
+They give the results "12cat" and "cat39" respectively. This happens because BlueJ uses left-to-right evaluation when using "+".
+
+
 

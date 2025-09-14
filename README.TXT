@@ -39,5 +39,30 @@ Question 10:
 I see the error message "cannot make a static reference to the non-static method getValue() from the type NumberDisplay"
 
 
+Question 11:
+The mistake is by using the type name (int) with the value (5), like you're declaring a variable. However, you're not supposed to declare the type when passing a value to a method.
+this would fix it: display.setValue(5);
 
+Question 13:
+Said parameter value would be 0, because with the new condition replacementValue > 0, the number 0 is rejected, even though it used to be valid with >= 0.
+
+Question 14:
+Some of the invalid parameter values that would now be able to set the field are negative values or values equal to or greater than the limit
+
+Question 15:
+By using the code pad, I see that "! false" and "(34 != 33) && ! false" return true
+
+Question 16: 
+a == b
+
+Question 17: 
+(a && !b) || (!a && b)
+
+Question 18:
+It assumes that the value will never be more than two digits. If i use getDisplayValue() in a place that expects only two digits, I will get inconsistent formatting when the value exceeds 99.
+
+Question 19:
+No, they produce an identical result. Both expressions produce the same string representation of the int value.
+
+Question 20:
 

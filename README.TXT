@@ -24,6 +24,20 @@ Question 3:
 During development, design, debugging or maintenance. Manually (with UML) or automatically (reverse engineering).
 
 Question 4: 
-Instructor tutor;
+private Instructor tutor;
 
-Question 5:
+Question 6: 
+After calling minutes.increment(), check if minutes.getValue() == 0. If it is, then call hours.increment() to advance the hour.
+
+Question 8:
+Only the call to setValue(3) changed the stored value because it was within the allowed range (0–5). The call to setValue(10) did not change the value because it was greater than the limit.
+
+Question 9:
+After I called setValue(10), getValue() will return the previous value (likely 0), because 10 is invalid and the method will not change the stored value.
+
+Question 10:
+I see the error message "cannot make a static reference to the non-static method getValue() from the type NumberDisplay"
+
+
+
+
